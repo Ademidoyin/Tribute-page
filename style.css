@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  background: #fff;
+  color: #000000;
+  width: 100%;
+  height: 275vh;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}
+
+header p {
+  margin-left: 2rem;
+}
+
+#head-span span {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+#follow {
+  background-color: gray;
+  border: none;
+  font-size: 0.88rem;
+  padding: 0.13rem 0.2rem;
+}
+
+header nav {
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+.nav-btn {
+  padding: 0.3rem;
+}
+
+article {
+  background-color: #d3d3d3;
+  height: auto;
+  width: 99%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+#text {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+#text h1 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+#img-div {
+  width: 98%;
+  margin: auto;
+  background-color: #fff;
+}
+
+#img-div #image {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+section h3 {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#list span {
+  font-weight: 800;
+}
+
+#list ul {
+  max-width: 40%;
+  text-align: left;
+  margin-left: 30%;
+}
+
+#list ul li {
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  #list ul {
+    max-width: 85%;
+    margin-left: 10%;
+  }
+}
+
+#tribute-info {
+  max-width: 40%;
+  margin-left: 30%;
+  padding-top: 3rem;
+}
+
+#tribute-info p {
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  #tribute-info {
+    max-width: 85%;
+    margin-left: 10%;
+  }
+
+  body {
+    height: 240vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #tribute-info {
+    max-width: 85%;
+    margin-left: 10%;
+  }
+}
+
+#tribute-link {
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+#tribute-link a {
+  color: rgb(29, 170, 170);
+}
